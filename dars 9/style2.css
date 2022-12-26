@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.contayner{
+    /* width: 100%; */
+    margin: 500px auto;
+}
+.cards{
+    display: flex;
+    border: 1px solid none;
+    width: 800px;
+    height: 100px;
+    margin: 20px auto;
+    background-color: wheat;
+    padding-left: 10px;
+    gap: 3px;
+}
+sup{
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+}
+p{
+    font-size: 35px;
+}
+.card1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}

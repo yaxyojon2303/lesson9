@@ -1,0 +1,125 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: sans-serif;
+}
+.wrapper{
+    width: 1300px;
+    margin:100px auto;
+}
+.wrapper_item1{
+    width: 100%;
+    margin: 20px auto;
+}
+
+h1{
+    font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 39px;
+color: #000000;
+}
+h2{
+    font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 39px;
+color: #1D1818;
+margin-bottom: 41px;
+
+}
+.buttons{
+    cursor: pointer;
+    border: 1px solid white;
+    width: 1320px;
+    display: flex;
+    gap: 34px;
+    flex-wrap: wrap;
+    padding-top: 79px;
+    margin-bottom: 91px;
+}
+button{ 
+    border: 1px solid #384685;
+    border-radius: 5px;
+ background-color: white;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 23px; 
+    color: #384685; 
+    display: flex;
+    padding: 11px 21px 15px 21px;   
+}
+.wrapper2{
+    border: 1px solid none;
+   width: 1400px;
+}
+.cards{
+    border: 1px solid white;
+    display: flex;
+    width: 100%;
+    gap: 34px;
+    
+    
+    
+}
+.card1{
+    border: 1px solid white;
+    width: 358px;
+    height: 480px;
+    box-shadow: 5px 4px 3px 5px rgba(200, 200, 249, 1);
+}
+.wrap{
+    margin: 25px 37px 213px 37px;
+}
+img{
+   position: absolute;
+   padding-right: 37px;
+}
+span{
+    position: relative;
+    top: -10px;
+    left: -15px;
+    padding: 5px;
+  background-color: blue;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;  
+}
+.cold{
+    font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+padding-top: 12px;
+padding-bottom: 34px;
+margin-left: 38px;
+color: #000000;
+}
+.plus{
+    border-top: 1px solid #E2E2E2;
+    border-bottom: 1px solid #E2E2E2;
+    display: flex;
+    gap: 20px;
+    padding: 12px;
+    margin-left: 38px;
+    margin-right: 34px;
+
+}
+.box{
+    display: flex;
+    align-items: center;
+    padding-top: 17px;
+}
+.floor{
+    margin-left: 38px;
+}
+
+.reel{
+    margin-left: 250px;
+
+}
